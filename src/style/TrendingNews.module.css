@@ -1,0 +1,15 @@
+.trending_tag span, .trending_tag a {
+	font-size: 14px;
+}
+.trending_tag a {
+	display: inline-block;
+	padding: 5px 10px;
+	background: #eee;
+	margin: 0 5px;
+	color: #ff8c00;
+	border: 1px solid #eee;
+	transition: all 0.3s ease;
+}
+.trending_tag a:hover {
+	border: 1px solid #ff8c00;
+}

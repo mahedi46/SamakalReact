@@ -1,0 +1,39 @@
+.header_top {
+	border-bottom: 1px solid #eee;
+	padding:3px 0;
+}
+.header_top ul {
+	display: flex;
+}
+.header_top ul li {
+	display:flex;
+	line-height:1;
+}
+.header_top ul li a{
+	font-size:14px;
+	padding: 0 8px;
+	border-right:1px dotted #333;
+	color:#333;
+}
+.header_top ul li:first-child a {
+	padding-left:0;
+}
+.header_top ul li:last-child a {
+	border-right:0;
+}
+.language_video_wrap {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
+.language_video_wrap a {
+	font-size: 14px;
+	line-height: 1;
+}
+.lang_btn {
+	background: #ff8c00;
+	padding:5px 15px;
+	border-radius: 0;
+	font-weight: 700;
+	color: #fff;
+}

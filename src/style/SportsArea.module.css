@@ -1,0 +1,71 @@
+.sports_area {
+	padding: 25px 0;
+}
+.sports_big {
+	position: relative;
+}
+.sports_big .Desc {
+	position: absolute;
+	bottom:0;
+	width: 100%;
+	padding: 0 10px 10px 10px;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.02) 0%, rgb(0 0 0 / 100%) 100%);
+}
+.sports_big .Desc .Title {
+	font-size:22px;
+	color: #fff;
+	-webkit-line-clamp: 2;
+	line-height: 29px;
+	height:auto;
+	margin-top:0;
+}
+.sports_big .Desc .leadNewsTop2Time{
+	color:#fff;
+	font-size:14px;
+}
+.sports_big:hover .Desc .Title {
+	color: #ff8c00;
+}
+.commonTwo_body:hover img {
+	opacity: 0.84;
+}
+.sports_big:hover img{
+	opacity:0.84;
+}
+.commonTwo_body {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+.commonTwo_body .Desc .Title2 {
+	margin-top: 10px;
+	height: 50px;
+}
+.commonTwo_body:hover .Desc .Title2 {
+	color: #ff8c00;
+}
+.Title {
+	font-size: 28px;
+	margin: 20px 0;
+	font-weight: 700;
+	line-height: 33px;
+	transition: all 0.3s ease;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.Title2 {
+	color: #333;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 60px;
+	font-weight: 700;
+	transition: all 0.3s ease;
+}
